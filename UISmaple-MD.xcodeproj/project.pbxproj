@@ -13,6 +13,7 @@
 		20813AEE1EE6FBBD008F4144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20813AED1EE6FBBD008F4144 /* Assets.xcassets */; };
 		20813AF11EE6FBBD008F4144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20813AEF1EE6FBBD008F4144 /* LaunchScreen.storyboard */; };
 		20813AFC1EE6FBBD008F4144 /* UISmaple_MDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20813AFB1EE6FBBD008F4144 /* UISmaple_MDTests.swift */; };
+		20B36EEA1F09552400349D3C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B36EE91F09552400349D3C /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		20813AF71EE6FBBD008F4144 /* UISmaple-MDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISmaple-MDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20813AFB1EE6FBBD008F4144 /* UISmaple_MDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISmaple_MDTests.swift; sourceTree = "<group>"; };
 		20813AFD1EE6FBBD008F4144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20B36EE91F09552400349D3C /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				20813AED1EE6FBBD008F4144 /* Assets.xcassets */,
 				20813AEF1EE6FBBD008F4144 /* LaunchScreen.storyboard */,
 				20813AF21EE6FBBD008F4144 /* Info.plist */,
+				20B36EE91F09552400349D3C /* RoundButton.swift */,
 			);
 			path = "UISmaple-MD";
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B36EEA1F09552400349D3C /* RoundButton.swift in Sources */,
 				20813AE91EE6FBBD008F4144 /* ViewController.swift in Sources */,
 				20813AE71EE6FBBD008F4144 /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +416,7 @@
 				20813B021EE6FBBD008F4144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20813B031EE6FBBD008F4144 /* Build configuration list for PBXNativeTarget "UISmaple-MDTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				20813B051EE6FBBD008F4144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
